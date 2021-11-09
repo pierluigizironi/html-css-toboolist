@@ -7,8 +7,92 @@
 /* Utilities */
 
 .container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
+}
+.arrow-down {
+    display: inline;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+h2, main {
+display: inline;
+vertical-align: middle;
+font-family: 'Anton', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Lato', sans-serif;
+}
+
+.button-class {
+
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 6px;
+    font-size: 11px;
+    margin: 5px;
+}
+
+.editorial-button {
+    background-color: #2B90FF;
+    color: white;
+}
+
+.q1goals-button {
+    background-color: #9C72E4;
+    color: white;
+}
+
+.recruiting-button {
+    background-color: #64C0A9;
+    color: white;
+}
+
+.mobile-button {
+    background-color: #F29E33;
+    color: white;
+}
+
+.website-button {
+    background-color: #D863A1;
+    color: white;
+}
+
+.sales-button {
+    background-color: #B0CA26;
+    color: white;
+}
+
+.editorialorange-button {
+    background-color: #F29E33;
+    color: white;
+}
+
+.point { 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+    border-style: solid;
+}
+
+.marked-point {
+    border-color: lightgreen;
+    border-radius: 50%;
+    color: lightgreen;
+
+}
+
+.crossed-point {
+    border-color: red;
+    color: red;
+}
+
+.tasks{
+    display: inline-block;
 }
 
 /* First Header */
@@ -34,13 +118,14 @@ h1 {
     border: none;
     color: white;
     padding: 10px 10px;
-    border-radius: 17%;
+    border-radius: 10px;
 }
 
 #add-section {
     background-color: white;
     color: grey;
     border-color: grey;
+    border-style: solid;
     padding: 8px 8px;
-    border-radius: 17%;
+    border-radius: 10px;
 }
