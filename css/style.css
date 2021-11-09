@@ -11,9 +11,13 @@ body {
 /* Utilities */
 
 .container {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     background-color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 20px 0px 0px 0px; 
+    margin-top: 20px;
 }
 .arrow-down {
     display: inline;
@@ -83,11 +87,12 @@ h2 {
     height: 10px;
     border-radius: 100%;  
     text-align: center;
-    display: inline;
     margin-right: 2px;
+    display: inline-block;
     border-style: solid;
     padding: 1px;
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 10px;
 }
 
 .marked-point {
@@ -128,8 +133,6 @@ h1 {
 /* Header Buttons */
 
 #button-header {
-    background-color: white;
-    margin-top: 20px;
     height: 60px;
 }
 
