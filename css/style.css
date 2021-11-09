@@ -160,9 +160,12 @@ h1 {
 
 /* Article */
 
-hr {
-    border: 2px solid #F6F8F9;
+#separator {
+    background-color: #F6F8F9;
+    width: 101%;
+    height: 4px;
     margin-bottom: 13px;
+    margin: -8px;
 
 }
 
