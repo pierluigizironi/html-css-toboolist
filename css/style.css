@@ -12,13 +12,9 @@
 }
 
 /* First Header */
-#first-header {
-    height: 100px;
-}
-
 #logo {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     vertical-align: middle;
     padding-left: 20px;
 }
