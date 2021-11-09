@@ -4,11 +4,16 @@
     padding: 0;
 }
 
+body {
+    background-color: #F6F8F9;
+}
+
 /* Utilities */
 
 .container {
     width: 50%;
     margin: 0 auto;
+    background-color: white;
 }
 .arrow-down {
     display: inline;
@@ -96,15 +101,19 @@ font-family: 'Lato', sans-serif;
 }
 
 /* First Header */
+#first-header {
+    background-color: white;
+}
+
 #logo {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     vertical-align: middle;
     padding-left: 20px;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     display: inline;
     vertical-align: middle;
     font-family: 'Anton', sans-serif;
@@ -112,6 +121,17 @@ h1 {
 }
 
 /* Header Buttons */
+
+#button-header {
+    background-color: white;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#button-position {
+    margin-left: 30px;
+    padding-top: 10px;
+}
 
 #add-task {
     background-color: #2B90FF;
@@ -128,4 +148,16 @@ h1 {
     border-style: solid;
     padding: 8px 8px;
     border-radius: 10px;
+}
+
+/* Article */
+
+hr {
+    border: 2px solid #F6F8F9;
+    margin-bottom: 13px;
+
+}
+
+article {
+    margin-left: 20px;
 }
