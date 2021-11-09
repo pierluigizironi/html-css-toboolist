@@ -26,3 +26,21 @@ h1 {
     font-family: 'Anton', sans-serif;
     font-family: 'Kalam', cursive;
 }
+
+/* Header Buttons */
+
+#add-task {
+    background-color: #2B90FF;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 17%;
+}
+
+#add-section {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    padding: 8px 8px;
+    border-radius: 17%;
+}
