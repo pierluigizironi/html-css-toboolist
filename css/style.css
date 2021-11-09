@@ -29,6 +29,10 @@ font-family: 'Kalam', cursive;
 font-family: 'Lato', sans-serif;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .button-class {
 
     display: inline-block;
@@ -75,18 +79,19 @@ font-family: 'Lato', sans-serif;
 }
 
 .point { 
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;  
     text-align: center;
     display: inline;
-    margin-right: 10px;
+    margin-right: 2px;
     border-style: solid;
+    padding: 1px;
+    font-size: 13px;
 }
 
 .marked-point {
     border-color: lightgreen;
-    border-radius: 50%;
     color: lightgreen;
 
 }
@@ -160,4 +165,13 @@ hr {
 
 article {
     margin-left: 20px;
+    margin-top: 30px;
+}
+
+.title-article {
+    margin: 20px 0px;
+}
+
+.item-article {
+    margin: 5px 0px;
 }
