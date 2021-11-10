@@ -19,11 +19,6 @@ body {
     border-radius: 20px 20px 0px 0px; 
     margin-top: 20px;
 }
-.arrow-down {
-    display: inline;
-    font-size: 12px;
-    vertical-align: middle;
-}
 
 h2, main {
 display: inline;
@@ -36,30 +31,6 @@ font-family: 'Lato', sans-serif;
 h2 {
     font-size: 20px;
 }
-
-.button-class {
-
-    display: inline-block;
-    border-radius: 10px;
-    color: white;
-    padding: 6px 6px;
-    font-size: 11px;
-    margin: 5px;
-}
-
-.point { 
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;  
-    text-align: center;
-    margin-right: 2px;
-    display: inline-block;
-    border-style: solid;
-    padding: 1px;
-    font-size: 14px;
-    line-height: 10px;
-}
-
 
 .tasks{
     display: inline-block;
@@ -75,6 +46,7 @@ h2 {
     width: 60px;
     height: 60px;
     vertical-align: middle;
+    line-height: 40px;
     padding-left: 20px;
 }
 
@@ -91,6 +63,8 @@ h1 {
 
 #button-header {
     height: 60px;
+    border-bottom: solid #F6F8F9 10px;
+    margin: 0 -1em;
 }
 
 #button-position {
@@ -117,62 +91,79 @@ h1 {
 
 /* Article */
 
-#separator {
-    background-color: #F6F8F9;
-    width: 103%;
-    height: 4px;
-    margin-bottom: 13px;
-    margin: -8px;
-
-}
-
 article {
-    margin-left: 20px;
-    margin-top: 30px;
+    margin: 20px 0px 0px 30px;
 }
 
 .title-article {
     margin: 20px 0px;
 }
 
+.arrow-down {
+    display: inline;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
 .item-article {
     margin: 5px 0px;
 }
 
-.editorial-button {
+/* Tag Toboolist */
+
+.tag-class {
+
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 6px;
+    font-size: 11px;
+    margin: 5px;
+}
+
+.editorial-tag {
     background-color: #2B90FF;
-    color: white;
 }
 
-.q1goals-button {
+.q1goals-tag {
     background-color: #9C72E4;
-    color: white;
 }
 
-.recruiting-button {
+.recruiting-tag {
     background-color: #64C0A9;
-    color: white;
 }
 
-.mobile-button {
+.mobile-tag {
     background-color: #F29E33;
-    color: white;
 }
 
-.website-button {
+.website-tag {
     background-color: #D863A1;
-    color: white;
 }
 
-.sales-button {
+.sales-tag {
     background-color: #B0CA26;
-    color: white;
 }
 
-.editorialorange-button {
+.editorialorange-tag {
     background-color: #F29E33;
-    color: white;
 }
+
+/* Marked and crossed elements */
+
+.point { 
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;  
+    text-align: center;
+    margin-right: 2px;
+    display: inline-block;
+    border-style: solid;
+    padding: 2px;
+    font-size: 14px;
+    line-height: 10px;
+}
+
 
 .marked-point {
     border-color: lightgreen;
