@@ -47,41 +47,6 @@ h2 {
     margin: 5px;
 }
 
-.editorial-button {
-    background-color: #2B90FF;
-    color: white;
-}
-
-.q1goals-button {
-    background-color: #9C72E4;
-    color: white;
-}
-
-.recruiting-button {
-    background-color: #64C0A9;
-    color: white;
-}
-
-.mobile-button {
-    background-color: #F29E33;
-    color: white;
-}
-
-.website-button {
-    background-color: #D863A1;
-    color: white;
-}
-
-.sales-button {
-    background-color: #B0CA26;
-    color: white;
-}
-
-.editorialorange-button {
-    background-color: #F29E33;
-    color: white;
-}
-
 .point { 
     width: 10px;
     height: 10px;
@@ -95,16 +60,6 @@ h2 {
     line-height: 10px;
 }
 
-.marked-point {
-    border-color: lightgreen;
-    color: lightgreen;
-
-}
-
-.crossed-point {
-    border-color: red;
-    color: red;
-}
 
 .tasks{
     display: inline-block;
@@ -180,4 +135,50 @@ article {
 
 .item-article {
     margin: 5px 0px;
+}
+
+.editorial-button {
+    background-color: #2B90FF;
+    color: white;
+}
+
+.q1goals-button {
+    background-color: #9C72E4;
+    color: white;
+}
+
+.recruiting-button {
+    background-color: #64C0A9;
+    color: white;
+}
+
+.mobile-button {
+    background-color: #F29E33;
+    color: white;
+}
+
+.website-button {
+    background-color: #D863A1;
+    color: white;
+}
+
+.sales-button {
+    background-color: #B0CA26;
+    color: white;
+}
+
+.editorialorange-button {
+    background-color: #F29E33;
+    color: white;
+}
+
+.marked-point {
+    border-color: lightgreen;
+    color: lightgreen;
+
+}
+
+.crossed-point {
+    border-color: red;
+    color: red;
 }
